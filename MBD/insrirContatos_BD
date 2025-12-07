@@ -1,0 +1,23 @@
+INSERT INTO tbContato 
+(nomeContato, enderecoContato, telefoneContato, emailContato, sexoContato)
+VALUES
+('Aline Souza', 'Rua das Flores, 123', '11912345678', 'ana.silva@example.com', 'F'),
+('Carlos Rocha', 'Av. Central, 450', NULL, 'joao.pereira@example.com', 'M'),
+('Débora Santos', 'Rua Azul, 77', '21923456789', NULL, 'F'),
+('Enzo Ferrari', 'Rua Verde, 15', '31934567890', 'carla.mendes@example.com', NULL),
+('Giovanna Mendes', NULL, '41945678901', 'pedro.rocha@example.com', 'F'),
+('Hugo Oliveira', NULL, NULL, 'luciana.alves@example.com', 'M'),
+('Isabela Lins', 'Rua das Laranjeiras, 200', '11956789012', NULL, 'F'),
+('Júlio Cesar', NULL, NULL, 'beatriz.costa@example.com', 'M'),
+('Kauane Brito', 'Rua do Sol, 90', '11967890123', 'samuel.barbosa@example.com', 'F'),
+('Lucas Mattos', NULL, NULL, 'fernanda.duarte@example.com', 'M'),
+('Maria Alice', 'Av. Brasil, 800', '21978901234', NULL, 'F'),
+('Nícolas Pena', 'Rua das Acácias, 12', '31989012345', 'patricia.ramos@example.com', 'M'),
+('Olívia Gomes', NULL, '41990123456', NULL, 'F'),
+('Pedro Henrique', 'Rua Nova, 33', NULL, 'sofia.martins@example.com', 'M'),
+('Quésia Ribeiro', 'Rua das Hortênsias, 66', '11901234567', 'eduardo.tavares@example.com', NULL),
+('Rafael Diniz', NULL, NULL, 'mariana.couto@example.com', 'M'),
+('Sara Antunes', 'Av. dos Pássaros, 105', '21912345000', NULL, 'F'),
+('Thiago Silva', 'Rua do Cedro, 210', '31923456000', 'helena.cardoso@example.com', 'M'),
+('Vitória Cruz', NULL, '41934567000', NULL, NULL),
+('Wesley Nunes', 'Rua Bela Vista, 88', NULL, 'laura.figueiredo@example.com', 'M');
