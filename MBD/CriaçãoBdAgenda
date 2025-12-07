@@ -1,0 +1,24 @@
+CREATE DATABASE IF NOT EXISTS bdOrnitorrincorporation;
+USE bdOrnitorrincorporation;
+
+CREATE TABLE IF NOT EXISTS tbClientes (
+    idContato int NOT NULL AUTO_INCREMENT,
+    nomeCliente varchar(200) NOT NULL,
+  
+    tipoRelacionamento ENUM('CLIENTE', 'PARCEIRO', 'FORNECEDOR', 'OUTRO') NOT NULL, 
+    
+    telefoneContato varchar(30),
+    emailContato varchar(320),
+    
+    enderecoCompleto varchar(300),
+  
+    dataRegistro DATE DEFAULT CURRENT_DATE,
+    
+    CONSTRAINT PKCliente PRIMARY KEY (idContato),
+  
+    CONSTRAINT UQTelefone UNIQUE (telefoneContato),
+   
+    CONSTRAINT UQEmail UNIQUE (emailContato),
+
+    CONSTRAINT CHKMeiodeContato CHECK (emailContato IS NOT NULL OR telefoneContato IS NOT NULL)
+);
